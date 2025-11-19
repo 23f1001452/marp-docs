@@ -2,6 +2,13 @@
 marp: true
 theme: custom-theme
 paginate: true
+footer: "© 2025 — 23f1001452@ds.study.iitm.ac.in"
+---
+<!-- marp: true -->
+---
+marp: true
+theme: custom-theme
+paginate: true
 footer: "© 2025 Software Docs — 23f1001452@ds.study.iitm.ac.in"
 ---
 
