@@ -1,14 +1,11 @@
 ---
 
 marp: true
-theme: custom-theme
 paginate: true
 footer: "© 2025 Software Docs — [23f1001452@ds.study.iitm.ac.in](mailto:23f1001452@ds.study.iitm.ac.in)"
 --------------------------------------------------------------------------------------------------------
 
-<!--
-CLASS: lead
--->
+<!-- Class: lead -->
 
 # Product Documentation Presentation
 
@@ -20,49 +17,28 @@ CLASS: lead
 
 # What is Marp?
 
-* Markdown → Presentation slides
-* Perfect for version control
-* Easily exportable to:
+* Write docs once in Markdown
+* Render as:
 
   * PDF
-  * PowerPoint
   * HTML
-
----
-
-# Custom Theme Example
-
-```css
-/* Custom theme defined inside Marp */
-:root {
-  --main-color: #2d89ef;
-  --heading-font: 'Segoe UI', sans-serif;
-}
-
-section {
-  font-family: var(--heading-font);
-  color: #222;
-}
-
-h1, h2, h3 {
-  color: var(--main-color);
-}
-```
+  * PPTX
+* Perfect for version control
 
 ---
 
 # Algorithmic Complexity
 
-Evaluate time complexity depending on input size:
+Evaluate time complexity based on input size:
 
 $$
 T(n) = n \log n
 $$
 
-More examples:
+Examples:
 
-* Sorting algorithms (e.g., Merge Sort)
-* Some divide-and-conquer techniques
+* Merge sort
+* Divide-and-conquer algorithms
 
 ---
 
@@ -74,8 +50,8 @@ color: white
 
 # Slide with Background Image
 
-This slide includes
-a full-screen image using Marp directives.
+This slide demonstrates a
+full-screen image background.
 
 ---
 
@@ -83,8 +59,8 @@ a full-screen image using Marp directives.
 
 * Modular
 * Version-controlled
-* Auto-generated output
-* Easy review & maintenance
+* Auto-generated
+* Maintained in Markdown
 
 ---
 
@@ -92,15 +68,22 @@ a full-screen image using Marp directives.
 
 📧 [23f1001452@ds.study.iitm.ac.in](mailto:23f1001452@ds.study.iitm.ac.in)
 
-## Thank you!
+Thank you!
+
+---
 
 <style>
 @theme custom-theme {
+  :root {
+    --main-color: #2d89ef;
+    --heading-font: "Segoe UI", sans-serif;
+  }
   section {
+    font-family: var(--heading-font);
     padding: 2rem;
   }
-  h1 {
-    font-size: 2.5rem;
+  h1, h2, h3 {
+    color: var(--main-color);
   }
   footer {
     font-size: 0.8rem;
