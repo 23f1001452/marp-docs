@@ -1,85 +1,67 @@
 ---
 marp: true
-title: Product Documentation
+theme: custom-theme
 paginate: true
-author: SANJ
-theme: default
-class: lead
+footer: "© 2025 Software Docs — 23f1001452@ds.study.iitm.ac.in"
 ---
 
-<!-- This slide includes your email -->
+<style>
+@theme custom-theme {
+  :root {
+    --main-color: #2d89ef;
+    --heading-font: "Segoe UI", sans-serif;
+    --text-color: #222;
+  }
+  section {
+    font-family: var(--heading-font);
+    color: var(--text-color);
+    padding: 2rem;
+  }
+  h1, h2, h3 {
+    color: var(--main-color);
+  }
+  footer {
+    font-size: 0.8rem;
+    color: #888;
+  }
+}
+</style>
+
+---
+
 # Product Documentation  
-#### Author: SANJ  
-📧 23f1001452@ds.study.iitm.ac.in
+**Author / Contact:** 23f1001452@ds.study.iitm.ac.in  
 
 ---
 
-# Why This Matters
-- Documentation should be:
-  - Maintainable in Git
-  - Easy to version
-  - Convertible into PDF, PPT, or HTML
-- Marp allows all of this
+# What is Marp?
+
+- Create slide decks in Markdown  
+- Version-controlled  
+- Export to PDF / HTML / PPTX  
 
 ---
 
-<!-- Slide with background image -->
-<!-- Change the image URL to something valid in your repo -->
-<!-- Example uses an internet-hosted image -->
-<!-- If using local, place image in repo and refer like: url(./images/bg.jpg) -->
-
-<!--
-backgroundImage: url(https://picsum.photos/1600/900)
-backgroundSize: cover
-backgroundColor: rgba(0,0,0,0.4)
-class: invert
--->
+![bg cover](https://picsum.photos/1600/900)
 
 # Documentation Vision  
 A clean, simple, reusable documentation system.
 
 ---
 
-# Custom Styling Example
-
-<style>
-h1 {
-  color: #0066ff;
-}
-p {
-  font-size: 18px;
-}
-</style>
-
-This slide demonstrates **custom CSS styling** inside Marp.
+# Algorithmic Complexity  
+$$ T(n) = n \log n $$  
+Used in sorting, divide-and-conquer, etc.
 
 ---
 
-# Mathematical Examples
+# Feature Callout
 
-Algorithmic complexity example:
-
-$$
-T(n) = 2T(n/2) + n
-$$
-
-Applying the Master Theorem:
-
-$$
-T(n) = O(n \log n)
-$$
+<div style="border-left:4px solid var(--main-color); padding:0.5rem;">
+**Versioning:** Keep docs in Git, review via PRs, generate on CI.  
+</div>
 
 ---
 
-# Custom Theme Definition
-
-You can also define your own theme:
-
-```css
-/* theme.css */
-section {
-  font-family: Arial, sans-serif;
-}
-h1 {
-  color: #0099ff;
-}
+# Contact  
+📧 23f1001452@ds.study.iitm.ac.in  
