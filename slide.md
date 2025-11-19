@@ -1,65 +1,85 @@
 ---
 marp: true
-theme: custom-theme
+title: Product Documentation
 paginate: true
-footer: "© 2025 Software Docs — 23f1001452@ds.study.iitm.ac.in"
+author: SANJ
+theme: default
+class: lead
 ---
 
+<!-- This slide includes your email -->
+# Product Documentation  
+#### Author: SANJ  
+📧 23f1001452@ds.study.iitm.ac.in
+
+---
+
+# Why This Matters
+- Documentation should be:
+  - Maintainable in Git
+  - Easy to version
+  - Convertible into PDF, PPT, or HTML
+- Marp allows all of this
+
+---
+
+<!-- Slide with background image -->
+<!-- Change the image URL to something valid in your repo -->
+<!-- Example uses an internet-hosted image -->
+<!-- If using local, place image in repo and refer like: url(./images/bg.jpg) -->
+
+<!--
+backgroundImage: url(https://picsum.photos/1600/900)
+backgroundSize: cover
+backgroundColor: rgba(0,0,0,0.4)
+class: invert
+-->
+
+# Documentation Vision  
+A clean, simple, reusable documentation system.
+
+---
+
+# Custom Styling Example
+
 <style>
-@theme custom-theme {
-  :root {
-    --main-color: #2d89ef;
-    --heading-font: "Segoe UI", sans-serif;
-    --text-color: #222222;
-  }
-
-  section {
-    font-family: var(--heading-font);
-    color: var(--text-color);
-    padding: 2rem;
-  }
-
-  h1, h2, h3 {
-    color: var(--main-color);
-  }
-
-  footer {
-    font-size: 0.8rem;
-    color: #888888;
-    margin-top: 1rem;
-  }
-
-  /* Custom class for callout boxes */
-  .callout {
-    border-left: 6px solid var(--main-color);
-    padding: 0.6rem 1rem;
-    background: rgba(45,137,239,0.05);
-    border-radius: 4px;
-  }
+h1 {
+  color: #0066ff;
+}
+p {
+  font-size: 18px;
 }
 </style>
 
----
-# Product Documentation Presentation
-### Marp-based, version-control friendly
-**Author / Contact:** 23f1001452@ds.study.iitm.ac.in
+This slide demonstrates **custom CSS styling** inside Marp.
 
 ---
 
-# What is Marp?
+# Mathematical Examples
 
-- Markdown → Presentation
-- Source controlled (git)
-- Export to PDF / PPTX / HTML
+Algorithmic complexity example:
+
+$$
+T(n) = 2T(n/2) + n
+$$
+
+Applying the Master Theorem:
+
+$$
+T(n) = O(n \log n)
+$$
 
 ---
 
-# Quick Example (Code)
+# Custom Theme Definition
 
-```python
-def compute_revenue(transactions):
-    """Compute total revenue from transactions list of dicts"""
-    return sum(t['qty'] * t['price'] for t in transactions)
+You can also define your own theme:
 
-# Example
-print(compute_revenue([{'qty':10,'price':100.0}, {'qty':5,'price':250.0}]))
+```css
+/* theme.css */
+section {
+  font-family: Arial, sans-serif;
+}
+h1 {
+  color: #0099ff;
+}
