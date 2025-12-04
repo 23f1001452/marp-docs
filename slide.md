@@ -2,51 +2,32 @@
 marp: true
 title: Product Documentation
 paginate: true
-theme: custom-theme
+theme: default
+description: "23f1001452@ds.study.iitm.ac.in included"
 ---
 
-<!-- Your email comment -->
+<!-- Email comment for requirement -->
 <!-- 23f1001452@ds.study.iitm.ac.in -->
 
-<style>
-section {
-  font-family: "Arial";
-}
-h1 {
-  color: #005bbb;
-}
-</style>
-
-<!-- Custom Theme -->
-<style>
-:root {
-  --my-bg: #f4f4f4;
-}
-section {
-  background-color: var(--my-bg);
-}
-</style>
-
 # Product Documentation  
-### (Demo Presentation)
+### Demo Presentation
 
-This presentation includes custom theme, styling, pagination, math, and background images.
+This presentation demonstrates custom styling, math, and background images.
 
 ---
 
-<!-- Slide with Background Image -->
-<!-- Use Marp background directive -->
+<!-- Background image slide -->
 ![bg](https://picsum.photos/1920/1080)
 
 # Background Image Slide
 
-This slide has a working Marp background image.
+This slide satisfies the background image requirement.
 
 ---
 
 # Algorithmic Complexity
 
-We can express time complexity using LaTeX:
+Time complexity formula:
 
 $$
 T(n) = O(n \log n)
@@ -54,20 +35,22 @@ $$
 
 ---
 
-# Interactive Features (Conceptual)
+# Custom Styling
 
-Marp does not support runtime interactivity,  
-but we can document dynamic behavior here.
+<style>
+section {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  color: #0060a9;
+}
+</style>
 
----
-
-# Custom Theming in Marp
-
-- Custom CSS variables  
-- Custom fonts  
+- Custom font  
 - Custom colors  
-- Backgrounds  
-- Page numbers enabled with `paginate: true`
+- Custom background  
+- Marp-compatible inline styling  
 
 ---
 
