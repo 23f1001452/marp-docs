@@ -1,74 +1,78 @@
 ---
 marp: true
-theme: custom-theme
+title: Product Documentation
 paginate: true
-footer: "© 2025 — 23f1001452@ds.study.iitm.ac.in"
----
-<!-- marp: true -->
----
-marp: true
 theme: custom-theme
-paginate: true
-footer: "© 2025 Software Docs — 23f1001452@ds.study.iitm.ac.in"
 ---
 
+<!-- Your email comment -->
+<!-- 23f1001452@ds.study.iitm.ac.in -->
+
 <style>
-@theme custom-theme {
-  :root {
-    --main-color: #2d89ef;
-    --heading-font: "Segoe UI", sans-serif;
-    --text-color: #222;
-  }
-  section {
-    font-family: var(--heading-font);
-    color: var(--text-color);
-    padding: 2rem;
-  }
-  h1, h2, h3 {
-    color: var(--main-color);
-  }
-  footer {
-    font-size: 0.8rem;
-    color: #888;
-  }
+section {
+  font-family: "Arial";
+}
+h1 {
+  color: #005bbb;
 }
 </style>
 
----
+<!-- Custom Theme -->
+<style>
+:root {
+  --my-bg: #f4f4f4;
+}
+section {
+  background-color: var(--my-bg);
+}
+</style>
 
 # Product Documentation  
-**Author / Contact:** 23f1001452@ds.study.iitm.ac.in  
+### (Demo Presentation)
+
+This presentation includes custom theme, styling, pagination, math, and background images.
 
 ---
 
-# What is Marp?
+<!-- Slide with Background Image -->
+<!-- Use Marp background directive -->
+![bg](https://picsum.photos/1920/1080)
 
-- Create slide decks in Markdown  
-- Version-controlled  
-- Export to PDF / HTML / PPTX  
+# Background Image Slide
 
----
-
-![bg cover](https://picsum.photos/1600/900)
-
-# Documentation Vision  
-A clean, simple, reusable documentation system.
+This slide has a working Marp background image.
 
 ---
 
-# Algorithmic Complexity  
-$$ T(n) = n \log n $$  
-Used in sorting, divide-and-conquer, etc.
+# Algorithmic Complexity
+
+We can express time complexity using LaTeX:
+
+$$
+T(n) = O(n \log n)
+$$
 
 ---
 
-# Feature Callout
+# Interactive Features (Conceptual)
 
-<div style="border-left:4px solid var(--main-color); padding:0.5rem;">
-**Versioning:** Keep docs in Git, review via PRs, generate on CI.  
-</div>
+Marp does not support runtime interactivity,  
+but we can document dynamic behavior here.
 
 ---
 
-# Contact  
-📧 23f1001452@ds.study.iitm.ac.in  
+# Custom Theming in Marp
+
+- Custom CSS variables  
+- Custom fonts  
+- Custom colors  
+- Backgrounds  
+- Page numbers enabled with `paginate: true`
+
+---
+
+# Contact
+
+**Email:** 23f1001452@ds.study.iitm.ac.in
+
+Thank you!
